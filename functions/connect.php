@@ -12,6 +12,6 @@ function closeDB(){
         $mysqli->close();
 }
 
-sessioN_start();
+session_start();
     
 ?>
