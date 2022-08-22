@@ -12,6 +12,6 @@ function closeDB(){
         $mysqli->close();
 }
 
-session_start();
+session_start();//функция для выполнения авторизации
     
 ?>
