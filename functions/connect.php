@@ -11,5 +11,7 @@ function closeDB(){
         global $mysqli;
         $mysqli->close();
 }
+
+sessioN_start();
     
 ?>
